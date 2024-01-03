@@ -1,0 +1,110 @@
+:root{
+background-color: #f0c9ea ;
+font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 650px;
+    height: 70vh;
+    background-color: #fFFFFF;
+    border-radius: 10px;
+ 
+    margin: auto;
+    margin-top: 5px;
+
+-webkit-box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
+-moz-box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
+box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
+Copy Text  
+}
+
+.fields{
+    margin: 5% 10%;
+}
+
+.pink-font{
+    color: #E8258E;
+}
+
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
+
+#field__title {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(87, 86, 86);
+
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.fields__textboxs{
+    
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+
+}
+
+.fields__textboxs > input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-bottom: 5%;
+
+}
+
+.fields__remember{
+    margin-bottom: 20px;
+
+
+}
+
+#btnlogin{
+    width: 100%;
+    border: none;
+    background-color: #E8258E ;
+    color: #fFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.fields__recovery > a, .fields__create > a{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+}
+
+.fields__recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20%;
+}
+
+.fields__create{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.logo > img{
+    height: 80px;
+}
