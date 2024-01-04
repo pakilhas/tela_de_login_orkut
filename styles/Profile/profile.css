@@ -1,0 +1,52 @@
+header.menu{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.container{
+    margin-top: 100px;
+    border: 4px solid blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+
+ 
+}
+
+.container :not(:first-child){
+    margin-top: 15px;
+}
+
+.photo,
+.description,
+.counter__friend,
+.counter__community{
+    border: 1px solid green;
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+   
+
+}
+
+.photo{
+    height: 500px;
+
+}
+
+.description{
+    height: 400px;
+
+}
+
+.counter__friend,
+.counter__community{
+    height: 600px;
+
+
+}

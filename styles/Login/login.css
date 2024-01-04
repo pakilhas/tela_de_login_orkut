@@ -1,8 +1,3 @@
-:root{
-background-color: #f0c9ea ;
-font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-
-}
 
 .container{
     width: 80%;
@@ -17,16 +12,13 @@ font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 -webkit-box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
 -moz-box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
 box-shadow: 11px 6px 20px 5px rgba(140,140,140,0.83);
-Copy Text  
+
 }
 
 .fields{
     margin: 5% 10%;
 }
 
-.pink-font{
-    color: #E8258E;
-}
 
 .fields__title{
     display: flex;
@@ -70,12 +62,11 @@ Copy Text
 #btnlogin{
     width: 100%;
     border: none;
-    background-color: #E8258E ;
-    color: #fFFFFF;
+        color: #fFFFFF;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    cursor: pointer;
+   
 
 }
 
@@ -95,6 +86,8 @@ Copy Text
     display: flex;
     justify-content: center;
     font-weight: bold;
+    align-items: flex-end;
+    margin-top: 50px;
 
 }
 
